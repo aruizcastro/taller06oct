@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Administrar Empleados</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Administrar Empleados</string>
+    <string name="titulo">Opciones</string>
+    <string name="insertar">Insertar Registro</string>
+    <string name="buscar">Buscar Registro</string>
+     <string name="listado">Listado de Empleados</string>
+
+</resources>

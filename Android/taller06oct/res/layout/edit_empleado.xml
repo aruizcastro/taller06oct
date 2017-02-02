@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+    
+    <!-- Name Label -->
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:text="Cedula"
+         android:textColor="#FFFFFF"
+         android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/lblcedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+    
+    <!-- Input Name -->
+
+	<EditText
+	    android:id="@+id/inputNombre"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true" />
+	
+	<!-- Price Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Apellido"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+    
+    <!-- Input Price -->
+
+	<EditText
+	    android:id="@+id/inputApellido"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true" />
+	
+	<!-- Description Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Sueldo"
+        android:textColor="#FFFFFF"
+        android:textSize="17dip" />
+    
+    <!-- Input description -->
+
+	<EditText
+	    android:id="@+id/inputSueldo"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:singleLine="true" />
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <!-- Button Create Product -->
+
+	<Button
+	    android:id="@+id/btnSave"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_weight="1"
+	    android:background="@drawable/boton"
+	    android:padding="10dp"
+	    android:text="Actualizar"
+	    android:textColor="#FFFFFF" />
+	
+	<!-- Button Create Product -->
+
+	<Button
+	    android:id="@+id/btnDelete"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:layout_weight="1"
+	    android:background="@drawable/boton"
+	    android:padding="10dp"
+	    android:text="Eliminar"
+	    android:textColor="#FFFFFF" />
+	    
+	</LinearLayout>
+	
+</LinearLayout>

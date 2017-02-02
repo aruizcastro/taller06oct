@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+    
+    <!-- Name Label -->
+    
+    <!-- Input Name -->
+
+    <EditText
+        android:id="@+id/inputCedula"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:ems="10"
+        android:hint="No. Cedula"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+	<EditText
+	    android:id="@+id/inputName"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:layout_marginBottom="15dip"
+	    android:hint="Nombre Empleado"
+	    android:singleLine="true" />
+	
+	<!-- Price Label -->
+    
+    <!-- Input Price -->
+	
+	<!-- Description Label -->
+    
+    <!-- Input description -->
+	
+	<!-- Button Create Product -->
+
+	<EditText
+	    android:id="@+id/inputApellido"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:layout_marginBottom="15dp"
+	    android:ems="10"
+	    android:hint="Apellido Empleado" />
+
+	<EditText
+	    android:id="@+id/inputSueldo"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:layout_marginBottom="15dp"
+	    android:ems="10"
+	    android:hint="Sueldo" />
+
+	<Button
+	    android:id="@+id/btnCreateEmpleado"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:background="@drawable/boton"
+	    android:padding="10dp"
+	    android:text="Guardar"
+	    android:textColor="#FFFFFF" />
+	
+</LinearLayout>
